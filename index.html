@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify | Home</title>
+    <link rel="stylesheet" href="./assest/style.css" />
+    <link rel="stylesheet" href="./assest/utility.css" />
+    <link rel="shortcut icon" href="./assest/logofav.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home p-1 bg-grey rounded m-1">
+                <img src="./assest/cancel.svg" id="menuhide" class="invert" alt="" class="">
+                <div class="logo flex algn-itm gap-10">
+                    <img class="svg-wdth invert" src="./assest/music.svg" alt="logo" />Votify
+                </div>
+                <ul>
+                    <li>
+                        <img class="svg-wdth" src="./assest/home.svg" alt="home" />Home
+                    </li>
+                    <li>
+                        <img class="svg-wdth" src="./assest/search.svg " alt="search" />Search
+                    </li>
+                </ul>
+            </div>
+            <div class="library p-1 bg-grey rounded m-1">
+                <div class="">
+                    <div class="ylib">
+                        <div class="flex algn-itm gap-10">
+                            <img class="svg-wdth" src="./assest/library.svg" alt="" />Your
+                            library
+                        </div>
+                        <img class="svg-wdth" src="./assest/plus.svg" alt="" srcset="" />
+                    </div>
+                    <div class="songlist">
+                        <ul>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="lib-foot">
+                    <div class="legal-links">
+                        <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                        <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a><br />
+                    </div>
+                    <div class="">
+                        <a class="cokies" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                            rel="noopener">Cookies</a>
+                    </div>
+
+                    <div class="language">
+                        <button class="lang-btn">
+                            <img src="./assest/lang.svg" alt="" />English
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class=" bg-grey rounded m-1">
+                <div class="p-1 ryt-nav">
+                    <div class="arrow">
+                        <img src="./assest/menu.svg" id="hamburger" class="invert" alt="" srcset="">
+                        <div class="pre">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                <path
+                                    d="M201.4 297.4C188.9 309.9 188.9 330.2 201.4 342.7L361.4 502.7C373.9 515.2 394.2 515.2 406.7 502.7C419.2 490.2 419.2 469.9 406.7 457.4L269.3 320L406.6 182.6C419.1 170.1 419.1 149.8 406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3L201.3 297.3z" />
+                            </svg>
+                        </div>
+                        <div class="nxt">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                <path
+                                    d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="button">Sign up</button>
+                        <button type="button">Log in</button>
+                    </div>
+                </div>
+                <h1 class="p-1">Trending Songs</h1>
+                <div class="spotify-playlist">
+                    <div class="card-container">
+                        <!-- <div id="card" class="card" data-folder="arijeet_singh">
+                            <button class="play-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img"
+                                    aria-hidden="true" class="e-91000-icon e-91000-baseline" viewBox="0 0 24 24">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606">
+                                    </path>
+                                </svg>
+                            </button>
+                            <img src="./songs/arijeet_Singh_copy/cover.jpg" alt="playlist-first-image" class="" />
+                            <h2>Pardesia-From "Param Sundri"</h2>
+                            <p class="">
+                                Sachin-Jigar, Sonu Nigam, Krishnakali Saha, Amitabh
+                                Bhattacharya,
+                            </p>
+                        </div> -->
+                        
+                    </div>
+                </div>
+
+                <div class="playbar">
+                    <input type="range" name="" id="seekbar" class="seekbar" value="0" min="0" max="100" />
+                    <div id ="songinfo" class="songinfo">
+                        
+                    </div>
+                    <div class="songbtn">
+                        <img id="previousSong" src="./assest/presong.svg" alt="" srcset="">
+                        <img id="playPause" src="./assest/playsong.svg" alt="" srcset="">
+                        <img id="nextSong" src="./assest/nextsong.svg" alt="" srcset="">
+                    </div>
+
+                    <div id="songtime" class="songtime">
+                        <div id="updatetime">00:00</div>
+                        <div>&nbsp;/&nbsp; </div>                         
+                        <div id="duration">00:00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
